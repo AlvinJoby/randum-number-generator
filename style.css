@@ -1,0 +1,103 @@
+/*<!-----CODE-BY-ALVINJOBY----->
+    <!----follow-me-on-github:(ID) AlvinJoby------->*/
+
+body{
+    background-color: rgb(58, 58, 58);
+}
+main{
+    height: 100vh;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+/*<!-----CODE-BY-ALVINJOBY----->
+    <!----follow-me-on-github:(ID) AlvinJoby------->*/
+.card{
+    display: flex;
+    width:110%;
+    padding-left: -5%;
+    padding-right: -20%;
+    margin-left: 0;
+    padding-left: -20px;
+    border: 5px solid black;
+    margin-bottom: 20px;
+    margin-top: 5px;
+    height: 95%;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #fff;
+    border-radius: 25px;
+    box-shadow: 0 4px 8px rgb(228, 223, 223);
+    transition: transform 0.37s ease, box-shadow 0.3s ease;
+}
+.card:hover {
+    transform: scale(1.01);
+    box-shadow: 0 8px 16px rgb(255, 240, 240);
+}
+/*<!-----CODE-BY-ALVINJOBY----->
+    <!----follow-me-on-github:(ID) AlvinJoby------->*/
+
+.divmain{
+    margin-top: 10%;
+    padding-top: 10%;
+    height: 20em;
+    width: 25em;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border: 5px solid black;
+    border-radius: 40px;
+}
+label{
+    font-size: 5em;
+    font-family:'Lucida Sans', 'Lucida Sans Regular',
+                'Lucida Grande', 'Lucida Sans Unicode', Geneva,
+                 Verdana, sans-serif;
+}
+section{
+    height: 20em;
+    width: 25em;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    place-items: center;
+}
+/*<!-----CODE-BY-ALVINJOBY----->
+    <!----follow-me-on-github:(ID) AlvinJoby------->*/
+input{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 140%;
+    height: 39%;
+    font-size: 20px;
+    text-align: center;
+    border-color: blue;
+    box-shadow: 0 0 8px rgb(5, 34, 179);
+    border-radius: 10px;
+    transition: box-shadow 0.9s ease;
+}
+input:focus{
+    transform: scale(1.09);
+    box-shadow: 0 0 12px rgb(2, 255, 48);
+}
+.btn{
+    color: white;
+    background-color: green;
+    border-radius: 10px;
+    height: 50%;
+    width: 60%;
+    transition: 0.4s;
+}
+/*<!-----CODE-BY-ALVINJOBY----->
+    <!----follow-me-on-github:(ID) AlvinJoby------->*/
+.btn:hover{
+    color: green;
+    background-color: white;
+    border: green 3.5px solid;
+}
+/*<!-----CODE-BY-ALVINJOBY----->
+    <!----follow-me-on-github:(ID) AlvinJoby------->*/
